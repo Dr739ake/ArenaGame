@@ -60,8 +60,11 @@ partial class SandboxPlayer : Player
 		Inventory.Add( new GravGun() );
 		Inventory.Add( new Tool() );
 		Inventory.Add( new Pistol() );
-		Inventory.Add( new Flashlight() );
-		Inventory.Add( new Fists() );
+		//Inventory.Add( new Flashlight() );
+		//Inventory.Add( new Fists() );
+		//Inventory.Add( new RPG() );
+		Inventory.Add( new Unarmed() );
+
 
         Sandbox.Services.Stats.Increment( Client, "respawn", 1 );
 
